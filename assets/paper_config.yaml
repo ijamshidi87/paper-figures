@@ -1,0 +1,10 @@
+# paper_config.yaml — one per paper, at the repo root (paper-figures skill, §2).
+venue: trb            # trb | nature | elsevier | acmsmall | ieee | generic
+stage: final          # submission | final  (widths/formats may differ by stage)
+results_dir: results/
+palette_roles:        # one role per colour, fixed for the whole paper
+  obs: blue — observed / primary series
+  adj: amber — adjusted / secondary
+profile:              # filled from figures/style.py PROFILES; override only with a cited source
+  source: https://www.trb.org/Publications/PubsTRRJournalAuthors.aspx
+  checked: 2026-10-12
